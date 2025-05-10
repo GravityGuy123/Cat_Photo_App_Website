@@ -1,0 +1,106 @@
+*{
+            margin-left: 0.5px;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .sect{
+            display: flex;
+            flex-flow: row wrap;
+            flex: 0 1 auto;
+        }
+
+        .sect1, .sect2, .sect3{
+            display: flex;
+            flex-flow: column;
+        }
+
+        ol{
+            margin-top: 0em;
+            margin-bottom: 0.5em;
+        }
+
+        li{
+            margin-top: 0.5em;
+        }
+
+        @media (max-width: 900px){
+            .container{
+                margin-left: 1em;
+            }
+        }
+
+        @media (min-width: 900px) {
+            .sect1{
+                margin-left: 1em;
+            }
+            .sect2, .sect3{
+                margin-top: 1em;
+                margin-left: 3em;
+            }
+
+            .cat-photos{
+                margin-top: 50px;
+            }
+
+            .lay-down-cat{
+                margin-top: 3em;
+            }
+
+            .cat-list, .top-3{
+                margin-top: 1.4em;
+            }
+
+            .top-3{
+                margin-top: 1.3em;
+            }
+
+            li{
+                margin-top: 0.5em;
+            }
+        }
+
+        .catphotoapp{
+            width: 100vw;
+            background-color: rgb(170, 152, 51);
+            color: white;
+            text-transform: uppercase;
+            padding: 8px 8px 8px 20px;
+            letter-spacing: 0.2em;
+            position: fixed;
+            top: 0px;
+            left: 10px;
+            width: 100%;
+            margin: 0px;
+        }
+        h2{
+            color: rgb(170, 152, 51);
+        }
+
+        .foot{
+            background-color: rgb(170, 152, 51);
+            color: white;
+            padding: 0 1em 0.6em 1em;
+        }
+
+        .gravity{
+            color: yellow;
+            font-weight: bold;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 0.5rem;
+            font-size: 2.2rem;
+        }
+
+        .social-icons a:hover{
+            border-bottom: 2px solid white;
+        }
